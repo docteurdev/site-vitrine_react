@@ -1,0 +1,50 @@
+.nav{
+    display: flex;
+    justify-content:space-between;
+    /* padding: 8px; */
+}
+
+.links{
+    background: rgb(128, 238, 238);
+    color: rgb(35, 113, 116);
+    height: 100px;
+    width: 100px;
+    border-radius:  0px  50% 0px 50%;
+    padding: 8px;
+    cursor: pointer;
+
+}
+.nav-portfolio{
+    position: absolute;
+    left: 7%;
+    top: 3%;
+    perspective: 500px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.portfolio:hover .nav-portfolio{
+    visibility: visible;
+    opacity: 1;
+    transform: rotatey(-8deg);
+
+}
+
+.nav-portfolio li:hover{
+    color: cadetblue;
+}
+
+.nav-active{
+    color: black;
+}
+
+
+/* liens sociaux */
+
+.social-link li{
+    display: inline-block;
+    margin: 10px;
+    color: grey;
+    cursor: pointer;
+}
+

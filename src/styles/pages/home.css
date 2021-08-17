@@ -1,0 +1,40 @@
+.home .cercle{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: aqua;
+    position: absolute;
+    top: 40%;
+    left:32%;
+    transform: translate(-50% 50%);
+    animation: round 20s infinite alternate;
+    z-index: -1;
+}
+
+.home-main{
+    text-align: center;
+    margin-top: 50px;
+    z-index: 100;
+}
+
+@keyframes round {
+    
+    50%{
+        transform: scale(1.2);
+    }
+    70%{
+        transform: scale(1.7);
+    }
+    80%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+  
+    }
+
+    100%{
+        width: 500px;
+        height: 500px;
+    }
+}

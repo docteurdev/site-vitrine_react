@@ -1,0 +1,6 @@
+.social-link li{
+    display: inline-block;
+    margin: 10px;
+    color: grey;
+    cursor: pointer;
+}

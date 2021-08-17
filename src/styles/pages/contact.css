@@ -1,0 +1,118 @@
+
+.contact input{
+    display: block;
+    width: 400px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(28, 184, 184) ;
+}
+
+.contact h1{
+    color: rgb(61, 59, 59);
+    font-size: 3rem;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+}
+
+.contact span{
+    margin-top: 8px;
+
+}
+
+.contact button{
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    background: rgb(28, 184, 184);
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+
+
+}
+
+
+.contact::before{
+    content: '';
+    width: 70%;
+    height: 900px;
+    background: rgb(226, 243, 243);
+    z-index: -10;
+    position: absolute;
+    top: 35%;
+    left: 53%;
+    border-radius: 50%;
+    animation: round 20s infinite alternate;
+}
+
+@keyframes round {
+    
+    50%{
+        transform: scale(1.2);
+    }
+    70%{
+        transform: scale(1.7);
+    }
+    100%{
+        transform: scale(1);
+   
+    }
+}
+
+.adress{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.adress-content{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+
+.email{
+    margin-top: 25%;
+    cursor: pointer;
+    margin-left: 18%;
+
+}
+
+.email p{
+    transition: .5s;
+}
+.tel{
+    margin-left: 18%;
+    margin-bottom: 25%;
+}
+
+.adres{
+    cursor: pointer;
+}
+
+.adres p{
+    transition: .5s;
+}
+.adres p:hover{
+    margin-left: 4px;
+    color: rgb(12, 83, 83);
+}
+
+.email p:hover{
+    margin-left: 4px;
+    color: rgb(12, 83, 83);
+}
+
+.sms-send-text{
+    margin-top: 6px;
+    font-style: oblique;
+}

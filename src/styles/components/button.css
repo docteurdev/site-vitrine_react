@@ -1,0 +1,17 @@
+.scroll-bottom{
+    position: absolute;
+    top: 95vh;
+    left: 50%;
+}
+
+.sb-main{
+    display: flex;
+}
+
+ .left-hover{
+    margin-right: 6px;
+}
+
+.right-hover{
+    margin-left: 6px;
+}
